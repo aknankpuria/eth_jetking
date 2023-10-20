@@ -16,6 +16,7 @@ contract lottery {
            
 
         function entry() public payable {
+            // function to enter the lottery
 
          require(msg.value > 0.02 ether , "minimum price is 0.02 eth");
          participants.push(msg.sender);
@@ -23,12 +24,14 @@ contract lottery {
         }
 
         function random() private view returns (uint256){
+            // function to generate a random number to PICK WINNER.
 
          return uint256(keccak256(abi.encodePacked(block.difficulty, block.timestamp , participants)));
 
         }
 
         function pickwinner( ) public restricted {
+            // function to pick the winner
            
            require(participants.length > 0 , "no participants in the lottery");
          
