@@ -1,4 +1,14 @@
  Q -> 1 Write a Lottery Smart Contract made by using Solidity and
 Remix IDE.
 
-Ans - > The code for this  question is written in "lottery.sol" file . 
+Ans - >  1. we opened  a lottery.sol file in remix ide .
+        2 . we initilized a contract as a lottery.
+        3. whoever dopleyed that contract will be set to manager.
+        4. entry fee is greater than 0.02 ethers .
+        5 . we choosed random participant using random function.
+        6. pickwinner function picks the winner it can be only called by the manager . 
+        7. we used restricted modifier for pickwinner function.
+        8. winner gets all the balance from lottery.
+        9. participant list is rested to empty for another round .
+        10. The code for this  question is written in "lottery.sol" file . 
+        11. some snipshots are also attached with this file for better ubderstanding. 
