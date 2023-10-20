@@ -1,0 +1,4 @@
+ Q -> 1 Write a Lottery Smart Contract made by using Solidity and
+Remix IDE.
+
+Ans - > The code for this  question is written in "lottery.sol" file . 
