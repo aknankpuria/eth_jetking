@@ -56,5 +56,4 @@ contract lottery {
 
             return participants;
         }
-
 }
