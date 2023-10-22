@@ -42,8 +42,6 @@ contract lottery {
 
            participants = new address[](0);
         //    reseting the participant array for new round 
-
-
         }
 
         modifier restricted(){
