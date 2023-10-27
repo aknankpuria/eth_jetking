@@ -39,7 +39,6 @@ contract lottery {
            address winner = participants[index];
            payable (winner).transfer(address(this).balance);
 
-
            participants = new address[](0);
         //    reseting the participant array for new round 
         }
